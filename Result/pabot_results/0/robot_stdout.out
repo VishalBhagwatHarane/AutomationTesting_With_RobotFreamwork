@@ -1,0 +1,27 @@
+==============================================================================
+OrgeHRM                                                                       
+==============================================================================
+OrgeHRM.Dropdown                                                              
+==============================================================================
+Open_browser                                                            
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Shree\Desktop\New_Python\OrgeHRM\dropdown.robot:12
+    T:  Open_browser    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Shree\Desktop\New_Python\OrgeHRM\dropdown.robot:15
+      LoginTesting    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Shree\Desktop\New_Python\OrgeHRM\dropdown.robot:34
+      Select From List By Index    xpath://i[@class='oxd-icon bi-caret-up-fill oxd-select-text--arrow']
+______________________________________________________________________________
+| FAIL |
+ValueError: No indexes given.
+------------------------------------------------------------------------------
+OrgeHRM.Dropdown                                                      | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+OrgeHRM                                                               | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\Shree\Desktop\New_Python\Result\pabot_results\0\output.xml

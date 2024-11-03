@@ -1,0 +1,59 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.CountExtractLinkTexts                                                  
+==============================================================================
+CountExtract1                                                         Total link count:54
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Shree\Desktop\New_Python\Mouse_actions\CountExtractLinkTexts.robot:6
+    T:  CountExtract1    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Shree\Desktop\New_Python\Mouse_actions\CountExtractLinkTexts.robot:13
+      ${i}    IN RANGE    1    ${Alllinkcount}+1    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Shree\Desktop\New_Python\Mouse_actions\CountExtractLinkTexts.robot:13
+      ${i} = 1    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Shree\Desktop\New_Python\Mouse_actions\CountExtractLinkTexts.robot:14
+      Get Text    xpath:xpath:(//a)[${i}]
+      |  xpath:xpath:(//a)[${i}] = xpath:xpath:(//a)[1] (str)
+______________________________________________________________________________
+| FAIL |
+InvalidSelectorException: Message: invalid selector
+from javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression xpath:(//a)[1] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string 'xpath:(//a)[1]' is not a valid XPath expression."}
+  (Session info: chrome=129.0.6668.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF69D3AB125+29573]
+	(No symbol) [0x00007FF69D31FF50]
+	(No symbol) [0x00007FF69D1DB6EA]
+	(No symbol) [0x00007FF69D1E22BE]
+	(No symbol) [0x00007FF69D1E4637]
+	(No symbol) [0x00007FF69D1E46F0]
+	(No symbol) [0x00007FF69D22F38F]
+	(No symbol) [0x00007FF69D22FA6C]
+	(No symbol) [0x00007FF69D27B947]
+	(No symbol) [0x00007FF69D25733F]
+	(No symbol) [0x00007FF69D2786BC]
+	(No symbol) [0x00007FF69D2570A3]
+	(No symbol) [0x00007FF69D2212DF]
+	(No symbol) [0x00007FF69D222441]
+	GetHandleVerifier [0x00007FF69D6DC76D+3377613]
+	GetHandleVerifier [0x00007FF69D727B67+3685831]
+	GetHandleVerifier [0x00007FF69D71CF8B+3641835]
+	GetHandleVerifier [0x00007FF69D46B2A6+816390]
+	(No symbol) [0x00007FF69D32B25F]
+	(No symbol) [0x00007FF69D327084]
+	(No symbol) [0x00007FF69D327220]
+	(No symbol) [0x00007FF69D31607F]
+	BaseThreadInitThunk [0x00007FFAACB07374+20]
+	RtlUserThreadStart [0x00007FFAAD43CC91+33]
+------------------------------------------------------------------------------
+Suites.CountExtractLinkTexts                                          | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\Shree\Desktop\New_Python\pabot_results\0\output.xml

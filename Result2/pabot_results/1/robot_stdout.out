@@ -1,0 +1,54 @@
+==============================================================================
+OrgeHRM                                                                       
+==============================================================================
+OrgeHRM.Dropw                                                                 
+==============================================================================
+Open_browser :: Open browser, login, and navigate to 'My Info' sec...   
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Shree\Desktop\New_Python\OrgeHRM\dropw.robot:11
+    T:  Open_browser    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Shree\Desktop\New_Python\OrgeHRM\dropw.robot:15
+      LoginTesting    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Shree\Desktop\New_Python\OrgeHRM\dropw.robot:27
+      Click Element    xpath://label[text()='Marital Status']/following::div[1]
+______________________________________________________________________________
+| FAIL |
+ElementClickInterceptedException: Message: element click intercepted: Element <div data-v-957b4417="" class="">...</div> is not clickable at point (1275, 722). Other element would receive the click: <div data-v-d5bfe35b="" class="oxd-form-loader">...</div>
+  (Session info: chrome=129.0.6668.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7386EB125+29573]
+	(No symbol) [0x00007FF73865FF50]
+	(No symbol) [0x00007FF73851B6EA]
+	(No symbol) [0x00007FF7385774EE]
+	(No symbol) [0x00007FF738574F3C]
+	(No symbol) [0x00007FF738572408]
+	(No symbol) [0x00007FF73857161A]
+	(No symbol) [0x00007FF7385636BE]
+	(No symbol) [0x00007FF7385972FA]
+	(No symbol) [0x00007FF738562FF6]
+	(No symbol) [0x00007FF738597510]
+	(No symbol) [0x00007FF7385B86BC]
+	(No symbol) [0x00007FF7385970A3]
+	(No symbol) [0x00007FF7385612DF]
+	(No symbol) [0x00007FF738562441]
+	GetHandleVerifier [0x00007FF738A1C76D+3377613]
+	GetHandleVerifier [0x00007FF738A67B67+3685831]
+	GetHandleVerifier [0x00007FF738A5CF8B+3641835]
+	GetHandleVerifier [0x00007FF7387AB2A6+816390]
+	(No symbol) [0x00007FF73866B25F]
+	(No symbol) [0x00007FF738667084]
+	(No symbol) [0x00007FF738667220]
+	(No symbol) [0x00007FF73865607F]
+	BaseThreadInitThunk [0x00007FFAACB07374+20]
+	RtlUserThreadStart [0x00007FFAAD43CC91+33]
+------------------------------------------------------------------------------
+OrgeHRM.Dropw                                                         | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+OrgeHRM                                                               | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\Shree\Desktop\New_Python\Result2\pabot_results\1\output.xml

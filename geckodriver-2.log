@@ -1,0 +1,22 @@
+1725681860935	geckodriver	INFO	Listening on 127.0.0.1:50468
+1725681864009	mozrunner::runner	INFO	Running command: "C:\\Users\\Shree\\.cache\\selenium\\firefox\\win64\\130.0\\firefox.exe" "--marionette" "--remote-debugging- ... 9" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Shree\\AppData\\Local\\Temp\\rust_mozprofiledC2vAx"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1725681864393	Marionette	INFO	Marionette enabled
+1725681864496	Marionette	INFO	Listening on port 50476
+WebDriver BiDi listening on ws://127.0.0.1:50469
+Read port: 50476
+1725681864683	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pagead2.googlesyndication.com/bg/K5ZpvUWNqcUfu8Tok0Ehe0tYmYGPee5Ma71PMEE9nfI.js line 2 > eval line 4462 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/K5ZpvUWNqcUfu8Tok0Ehe0tYmYGPee5Ma71PMEE9nfI.js line 2 > eval line 7195 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/K5ZpvUWNqcUfu8Tok0Ehe0tYmYGPee5Ma71PMEE9nfI.js line 2 > eval line 6083 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/K5ZpvUWNqcUfu8Tok0Ehe0tYmYGPee5Ma71PMEE9nfI.js line 2 > eval line 3739 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://s0.2mdn.net/sadbundle/4429065499090291778/300x250/index.html?ev=01_252, line 280: TypeError: studio.Enabler is undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/K5ZpvUWNqcUfu8Tok0Ehe0tYmYGPee5Ma71PMEE9nfI.js line 2 > eval line 5037 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/pagead/js/rum.js?fcd=true, line 86: Script terminated by timeout at:
+V@https://pagead2.googlesyndication.com/pagead/js/rum.js?fcd=true:86:332
+Qf/this.U@https://pagead2.googlesyndication.com/pagead/js/rum.js?fcd=true:84:190
+
+1725682026443	Marionette	INFO	Stopped listening on port 50476
+Dynamically enable window occlusion 1

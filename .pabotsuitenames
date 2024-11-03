@@ -1,0 +1,11 @@
+datasources:e4314a0238b766a6cfe7e92596d8909b9c097ab1
+commandlineoptions:97d170e1550eee4afc0af065b78cda302a97674c
+suitesfrom:no-suites-from-option
+file:4c9068384d50f850396f82a35d636d0d61cafcb7
+--suite OrgeHRM.Dropdown
+--suite OrgeHRM.Dropw
+--suite OrgeHRM.Form
+--suite OrgeHRM.Getimplicit
+--suite OrgeHRM.Imlicitwait
+--suite OrgeHRM.Opennew
+--suite OrgeHRM.Timeout

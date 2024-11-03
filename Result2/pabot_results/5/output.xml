@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.11.3 on win32)" generated="2024-09-29T17:38:08.221029" rpa="false" schemaversion="5">
+<suite id="s1" name="OrgeHRM" source="C:\Users\Shree\Desktop\New_Python\OrgeHRM">
+<suite id="s1-s1" name="Opennew" source="C:\Users\Shree\Desktop\New_Python\OrgeHRM\opennew.robot">
+<test id="s1-s1-t1" name="My TestCase" line="5">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-09-29T17:38:08.435844" level="INFO">Opening browser 'headlesschrome' to base url 'https://fs2.formsite.com/meherpavan/form2/index.html?1537702596407'.</msg>
+<arg>https://fs2.formsite.com/meherpavan/form2/index.html?1537702596407</arg>
+<arg>headlesschrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-09-29T17:38:08.435844" elapsed="2.770057"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-09-29T17:38:11.205901" elapsed="1.598213"/>
+</kw>
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-09-29T17:38:12.805111" level="INFO">Opening browser 'chrome' to base url 'https://www.saucedemo.com/'.</msg>
+<arg>https://www.saucedemo.com/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-09-29T17:38:12.804114" elapsed="4.173178"/>
+</kw>
+<kw name="Close All Browsers" owner="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" start="2024-09-29T17:38:16.977292" elapsed="15.253556"/>
+</kw>
+<status status="PASS" start="2024-09-29T17:38:08.430836" elapsed="23.800012"/>
+</test>
+<status status="PASS" start="2024-09-29T17:38:08.255289" elapsed="23.975559"/>
+</suite>
+<status status="PASS" start="2024-09-29T17:38:08.235823" elapsed="23.995025"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="OrgeHRM">OrgeHRM</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Opennew">OrgeHRM.Opennew</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

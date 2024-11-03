@@ -1,0 +1,17 @@
+1725681703112	geckodriver	INFO	Listening on 127.0.0.1:50315
+1725681706189	mozrunner::runner	INFO	Running command: "C:\\Users\\Shree\\.cache\\selenium\\firefox\\win64\\130.0\\firefox.exe" "--marionette" "--remote-debugging- ... 6" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Shree\\AppData\\Local\\Temp\\rust_mozprofileC60JPe"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1725681707026	Marionette	INFO	Marionette enabled
+1725681707140	Marionette	INFO	Listening on port 50341
+WebDriver BiDi listening on ws://127.0.0.1:50316
+Read port: 50341
+1725681707365	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pagead2.googlesyndication.com/bg/K5ZpvUWNqcUfu8Tok0Ehe0tYmYGPee5Ma71PMEE9nfI.js line 2 > eval line 2721 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/K5ZpvUWNqcUfu8Tok0Ehe0tYmYGPee5Ma71PMEE9nfI.js line 2 > eval line 7625 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/K5ZpvUWNqcUfu8Tok0Ehe0tYmYGPee5Ma71PMEE9nfI.js line 2 > eval line 1548 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/K5ZpvUWNqcUfu8Tok0Ehe0tYmYGPee5Ma71PMEE9nfI.js line 2 > eval line 7568 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/K5ZpvUWNqcUfu8Tok0Ehe0tYmYGPee5Ma71PMEE9nfI.js line 2 > eval line 2249 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1725682025113	Marionette	INFO	Stopped listening on port 50341
+Dynamically enable window occlusion 1

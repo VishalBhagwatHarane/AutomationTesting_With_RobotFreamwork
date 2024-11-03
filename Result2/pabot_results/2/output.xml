@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.11.3 on win32)" generated="2024-09-29T17:37:32.160740" rpa="false" schemaversion="5">
+<suite id="s1" name="OrgeHRM" source="C:\Users\Shree\Desktop\New_Python\OrgeHRM">
+<suite id="s1-s1" name="Form" source="C:\Users\Shree\Desktop\New_Python\OrgeHRM\form.robot">
+<test id="s1-s1-t1" name="Form Filling" line="9">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-09-29T17:37:32.613193" level="INFO">Opening browser 'headlesschrome' to base url 'https://fs2.formsite.com/meherpavan/form2/index.html?1537702596407'.</msg>
+<arg>${Url}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-09-29T17:37:32.613193" elapsed="6.172666"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-09-29T17:37:38.786857" elapsed="0.222417"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-09-29T17:37:44.011073" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-09-29T17:37:39.010265" elapsed="5.000808"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-09-29T17:37:44.011073" level="INFO">Typing text 'Vishal' into text field '//input[@id='RESULT_TextField-1']'.</msg>
+<arg>//input[@id='RESULT_TextField-1']</arg>
+<arg>Vishal</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-09-29T17:37:44.011073" elapsed="0.224527"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-09-29T17:37:44.235600" level="INFO">Typing text 'Harane' into text field '//input[@id='RESULT_TextField-2']'.</msg>
+<arg>//input[@id='RESULT_TextField-2']</arg>
+<arg>Harane</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-09-29T17:37:44.235600" elapsed="0.085281"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-09-29T17:37:44.320881" level="INFO">Typing text '992155454' into text field '//input[@name='RESULT_TextField-3']'.</msg>
+<arg>//input[@name='RESULT_TextField-3']</arg>
+<arg>992155454</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-09-29T17:37:44.320881" elapsed="0.314815"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-09-29T17:37:46.636228" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-09-29T17:37:44.635696" elapsed="2.000532"/>
+</kw>
+<kw name="Scroll Element Into View" owner="SeleniumLibrary">
+<arg>//label[@for='RESULT_CheckBox-8_0']</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" start="2024-09-29T17:37:46.636228" elapsed="0.324705"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-09-29T17:37:48.964241" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-09-29T17:37:46.960933" elapsed="2.003308"/>
+</kw>
+<kw name="Select Radio Button" owner="SeleniumLibrary">
+<msg time="2024-09-29T17:37:48.964241" level="INFO">Selecting 'Radio-1' from radio button '//input[@id='RESULT_RadioButton-7_0']'.</msg>
+<msg time="2024-09-29T17:37:49.263618" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2024-09-29T17:37:49.263618" level="FAIL">InvalidSelectorException: Message: invalid selector
+from javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression //input[@type='radio' and @name='//input[@id='RESULT_RadioButton-7_0']' and (@value='Radio-1' or @id='Radio-1')] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//input[@type='radio' and @name='//input[@id='RESULT_RadioButton-7_0']' and (@value='Radio-1' or @id='Radio-1')]' is not a valid XPath expression."}
+  (Session info: chrome=129.0.6668.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7386EB125+29573]
+	(No symbol) [0x00007FF73865FF50]
+	(No symbol) [0x00007FF73851B6EA]
+	(No symbol) [0x00007FF7385222BE]
+	(No symbol) [0x00007FF738524637]
+	(No symbol) [0x00007FF7385246F0]
+	(No symbol) [0x00007FF73856F38F]
+	(No symbol) [0x00007FF73856FA6C]
+	(No symbol) [0x00007FF7385BB947]
+	(No symbol) [0x00007FF73859733F]
+	(No symbol) [0x00007FF7385B86BC]
+	(No symbol) [0x00007FF7385970A3]
+	(No symbol) [0x00007FF7385612DF]
+	(No symbol) [0x00007FF738562441]
+	GetHandleVerifier [0x00007FF738A1C76D+3377613]
+	GetHandleVerifier [0x00007FF738A67B67+3685831]
+	GetHandleVerifier [0x00007FF738A5CF8B+3641835]
+	GetHandleVerifier [0x00007FF7387AB2A6+816390]
+	(No symbol) [0x00007FF73866B25F]
+	(No symbol) [0x00007FF738667084]
+	(No symbol) [0x00007FF738667220]
+	(No symbol) [0x00007FF73865607F]
+	BaseThreadInitThunk [0x00007FFAACB07374+20]
+	RtlUserThreadStart [0x00007FFAAD43CC91+33]
+</msg>
+<arg>//input[@id='RESULT_RadioButton-7_0']</arg>
+<arg>Radio-1</arg>
+<doc>Sets the radio button group ``group_name`` to ``value``.</doc>
+<status status="FAIL" start="2024-09-29T17:37:48.964241" elapsed="0.299377">InvalidSelectorException: Message: invalid selector
+from javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression //input[@type='radio' and @name='//input[@id='RESULT_RadioButton-7_0']' and (@value='Radio-1' or @id='Radio-1')] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//input[@type='radio' and @name='//input[@id='RESULT_RadioButton-7_0']' and (@value='Radio-1' or @id='Radio-1')]' is not a valid XPath expression."}
+  (Session info: chrome=129.0.6668.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7386EB125+29573]
+	(No symbol) [0x00007FF73865FF50]
+	(No symbol) [0x00007FF73851B6EA]
+	(No symbol) [0x00007FF7385222BE]
+	(No symbol) [0x00007FF738524637]
+	(No symbol) [0x00007FF7385246F0]
+	(No symbol) [0x00007FF73856F38F]
+	(No symbol) [0x00007FF73856FA6C]
+	(No symbol) [0x00007FF7385BB947]
+	(No symbol) [0x00007FF73859733F]
+	(No symbol) [0x00007FF7385B86BC]
+	(No symbol) [0x00007FF7385970A3]
+	(No symbol) [0x00007FF7385612DF]
+	(No symbol) [0x00007FF738562441]
+	GetHandleVerifier [0x00007FF738A1C76D+3377613]
+	GetHandleVerifier [0x00007FF738A67B67+3685831]
+	GetHandleVerifier [0x00007FF738A5CF8B+3641835]
+	GetHandleVerifier [0x00007FF7387AB2A6+816390]
+	(No symbol) [0x00007FF73866B25F]
+	(No symbol) [0x00007FF738667084]
+	(No symbol) [0x00007FF738667220]
+	(No symbol) [0x00007FF73865607F]
+	BaseThreadInitThunk [0x00007FFAACB07374+20]
+	RtlUserThreadStart [0x00007FFAAD43CC91+33]
+</status>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2024-09-29T17:37:49.263618" elapsed="0.000000"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" start="2024-09-29T17:37:49.263618" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2024-09-29T17:37:32.613193" elapsed="16.650425">InvalidSelectorException: Message: invalid selector
+from javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression //input[@type='radio' and @name='//input[@id='RESULT_RadioButton-7_0']' and (@value='Radio-1' or @id='Radio-1')] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//input[@type='radio' and @name='//input[@id='RESULT_RadioButton-7_0']' and (@value='Radio-1' or @id='Radio-1')]' is not a valid XPath expression."}
+  (Session info: chrome=129.0.6668.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7386EB125+29573]
+	(No symbol) [0x00007FF73865FF50]
+	(No symbol) [0x00007FF73851B6EA]
+	(No symbol) [0x00007FF7385222BE]
+	(No symbol) [0x00007FF738524637]
+	(No symbol) [0x00007FF7385246F0]
+	(No symbol) [0x00007FF73856F38F]
+	(No symbol) [0x00007FF73856FA6C]
+	(No symbol) [0x00007FF7385BB947]
+	(No symbol) [0x00007FF73859733F]
+	(No symbol) [0x00007FF7385B86BC]
+	(No symbol) [0x00007FF7385970A3]
+	(No symbol) [0x00007FF7385612DF]
+	(No symbol) [0x00007FF738562441]
+	GetHandleVerifier [0x00007FF738A1C76D+3377613]
+	GetHandleVerifier [0x00007FF738A67B67+3685831]
+	GetHandleVerifier [0x00007FF738A5CF8B+3641835]
+	GetHandleVerifier [0x00007FF7387AB2A6+816390]
+	(No symbol) [0x00007FF73866B25F]
+	(No symbol) [0x00007FF738667084]
+	(No symbol) [0x00007FF738667220]
+	(No symbol) [0x00007FF73865607F]
+	BaseThreadInitThunk [0x00007FFAACB07374+20]
+	RtlUserThreadStart [0x00007FFAAD43CC91+33]
+</status>
+</test>
+<status status="FAIL" start="2024-09-29T17:37:32.211650" elapsed="17.051968"/>
+</suite>
+<status status="FAIL" start="2024-09-29T17:37:32.181660" elapsed="17.088999"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="OrgeHRM">OrgeHRM</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="Form">OrgeHRM.Form</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

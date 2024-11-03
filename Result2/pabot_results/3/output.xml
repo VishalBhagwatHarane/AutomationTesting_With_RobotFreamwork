@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.11.3 on win32)" generated="2024-09-29T17:37:52.300719" rpa="false" schemaversion="5">
+<suite id="s1" name="OrgeHRM" source="C:\Users\Shree\Desktop\New_Python\OrgeHRM">
+<suite id="s1-s1" name="Getimplicit" source="C:\Users\Shree\Desktop\New_Python\OrgeHRM\getimplicit.robot">
+<test id="s1-s1-t1" name="Form Filling" line="8">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-09-29T17:37:52.700824" level="INFO">Opening browser 'headlesschrome' to base url 'https://fs2.formsite.com/meherpavan/form2/index.html?1537702596407'.</msg>
+<arg>https://fs2.formsite.com/meherpavan/form2/index.html?1537702596407</arg>
+<arg>headlesschrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-09-29T17:37:52.700824" elapsed="4.543630"/>
+</kw>
+<kw name="Get Selenium Implicit Wait" owner="SeleniumLibrary">
+<msg time="2024-09-29T17:37:57.246450" level="INFO">${implicttime} = 0 seconds</msg>
+<var>${implicttime}</var>
+<doc>Gets the implicit wait value used by Selenium.</doc>
+<status status="PASS" start="2024-09-29T17:37:57.245453" elapsed="0.000997"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${implicttime}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-09-29T17:37:57.246450" elapsed="0.001996"/>
+</kw>
+<kw name="Set Selenium Implicit Wait" owner="SeleniumLibrary">
+<arg>10 seconds</arg>
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<status status="PASS" start="2024-09-29T17:37:57.248446" elapsed="0.034284"/>
+</kw>
+<kw name="Get Selenium Implicit Wait" owner="SeleniumLibrary">
+<msg time="2024-09-29T17:37:57.283727" level="INFO">${implicttime} = 10 seconds</msg>
+<var>${implicttime}</var>
+<doc>Gets the implicit wait value used by Selenium.</doc>
+<status status="PASS" start="2024-09-29T17:37:57.282730" elapsed="0.000997"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${implicttime}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-09-29T17:37:57.283727" elapsed="0.000998"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-09-29T17:37:57.285723" level="INFO">Typing text 'Vishal' into text field 'RESULT_TextField-1'.</msg>
+<arg>RESULT_TextField-1</arg>
+<arg>Vishal</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-09-29T17:37:57.284725" elapsed="0.553527"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-09-29T17:37:57.840796" level="INFO">Typing text 'Harane' into text field 'RESULT_TextField-2'.</msg>
+<arg>RESULT_TextField-2</arg>
+<arg>Harane</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-09-29T17:37:57.838252" elapsed="0.146700"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-09-29T17:37:57.984952" level="INFO">Typing text '9098898988' into text field 'RESULT_TextField-3'.</msg>
+<arg>RESULT_TextField-3</arg>
+<arg>9098898988</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-09-29T17:37:57.984952" elapsed="0.181147"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-09-29T17:37:58.166099" level="INFO">Typing text 'india' into text field 'RESULT_TextField-4'.</msg>
+<arg>RESULT_TextField-4</arg>
+<arg>india</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-09-29T17:37:58.166099" elapsed="0.138738"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-09-29T17:37:58.305834" level="INFO">Typing text 'washim' into text field 'RESULT_TextField-5'.</msg>
+<arg>RESULT_TextField-5</arg>
+<arg>washim</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-09-29T17:37:58.304837" elapsed="0.142185"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-09-29T17:37:58.448161" level="INFO">Typing text 'vishu@gmail.com' into text field 'RESULT_TextField-6'.</msg>
+<arg>RESULT_TextField-6</arg>
+<arg>vishu@gmail.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-09-29T17:37:58.447022" elapsed="0.305347"/>
+</kw>
+<kw name="Scroll Element Into View" owner="SeleniumLibrary">
+<arg>//label[@for='RESULT_CheckBox-8_4']</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" start="2024-09-29T17:37:58.752369" elapsed="0.307328"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-09-29T17:37:59.061693" level="INFO">Clicking element 'xpath=//label[@for='RESULT_RadioButton-7_0']'.</msg>
+<arg>xpath=//label[@for='RESULT_RadioButton-7_0']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-09-29T17:37:59.060695" elapsed="0.130236"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-09-29T17:37:59.191934" level="INFO">Clicking element 'xpath=//label[@for='RESULT_CheckBox-8_0']'.</msg>
+<arg>xpath=//label[@for='RESULT_CheckBox-8_0']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-09-29T17:37:59.190931" elapsed="0.244946"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-09-29T17:37:59.436874" level="INFO">Clicking element 'xpath=//label[@for='RESULT_CheckBox-8_1']'.</msg>
+<arg>xpath=//label[@for='RESULT_CheckBox-8_1']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-09-29T17:37:59.436874" elapsed="0.283922"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-09-29T17:37:59.720796" level="INFO">Clicking element 'xpath=//label[@for='RESULT_CheckBox-8_2']'.</msg>
+<arg>xpath=//label[@for='RESULT_CheckBox-8_2']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-09-29T17:37:59.720796" elapsed="0.148875"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-09-29T17:37:59.870696" level="INFO">Clicking element 'xpath=//label[@for='RESULT_CheckBox-8_3']'.</msg>
+<arg>xpath=//label[@for='RESULT_CheckBox-8_3']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-09-29T17:37:59.869671" elapsed="0.114806"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-09-29T17:37:59.984477" level="INFO">Clicking element 'xpath=//label[@for='RESULT_CheckBox-8_4']'.</msg>
+<arg>xpath=//label[@for='RESULT_CheckBox-8_4']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-09-29T17:37:59.984477" elapsed="0.102724"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-09-29T17:38:00.087201" level="INFO">Clicking element 'xpath=//label[@for='RESULT_CheckBox-8_5']'.</msg>
+<arg>xpath=//label[@for='RESULT_CheckBox-8_5']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-09-29T17:38:00.087201" elapsed="0.117423"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-09-29T17:38:00.204624" level="INFO">Clicking element 'xpath=//label[@for='RESULT_CheckBox-8_6']'.</msg>
+<arg>xpath=//label[@for='RESULT_CheckBox-8_6']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-09-29T17:38:00.204624" elapsed="0.240260"/>
+</kw>
+<kw name="Select From List By Label" owner="SeleniumLibrary">
+<msg time="2024-09-29T17:38:00.445881" level="INFO">Selecting options from selection list 'RESULT_RadioButton-9' by label Afternoon.</msg>
+<arg>RESULT_RadioButton-9</arg>
+<arg>Afternoon</arg>
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<status status="PASS" start="2024-09-29T17:38:00.444884" elapsed="0.287715"/>
+</kw>
+<kw name="Select From List By Index" owner="SeleniumLibrary">
+<msg time="2024-09-29T17:38:00.732599" level="INFO">Selecting options from selection list 'RESULT_RadioButton-9' by index 2.</msg>
+<arg>RESULT_RadioButton-9</arg>
+<arg>2</arg>
+<doc>Selects options from selection list ``locator`` by ``indexes``.</doc>
+<status status="PASS" start="2024-09-29T17:38:00.732599" elapsed="0.353147"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-09-29T17:38:01.085746" elapsed="2.355762"/>
+</kw>
+<status status="PASS" start="2024-09-29T17:37:52.700824" elapsed="10.740684"/>
+</test>
+<status status="PASS" start="2024-09-29T17:37:52.385902" elapsed="11.055606"/>
+</suite>
+<status status="PASS" start="2024-09-29T17:37:52.330658" elapsed="11.110850"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="OrgeHRM">OrgeHRM</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Getimplicit">OrgeHRM.Getimplicit</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -1,0 +1,51 @@
+==============================================================================
+OrgeHRM                                                                       
+==============================================================================
+OrgeHRM.Form                                                                  
+==============================================================================
+Form Filling                                                            
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Shree\Desktop\New_Python\OrgeHRM\form.robot:9
+    T:  Form Filling    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Shree\Desktop\New_Python\OrgeHRM\form.robot:24
+      Select Radio Button    //input[@id='RESULT_RadioButton-7_0']    Radio-1
+______________________________________________________________________________
+| FAIL |
+InvalidSelectorException: Message: invalid selector
+from javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression //input[@type='radio' and @name='//input[@id='RESULT_RadioButton-7_0']' and (@value='Radio-1' or @id='Radio-1')] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//input[@type='radio' and @name='//input[@id='RESULT_RadioButton-7_0']' and (@value='Radio-1' or @id='Radio-1')]' is not a valid XPath expression."}
+  (Session info: chrome=129.0.6668.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7386EB125+29573]
+	(No symbol) [0x00007FF73865FF50]
+	(No symbol) [0x00007FF73851B6EA]
+	(No symbol) [0x00007FF7385222BE]
+	(No symbol) [0x00007FF738524637]
+	(No symbol) [0x00007FF7385246F0]
+	(No symbol) [0x00007FF73856F38F]
+	(No symbol) [0x00007FF73856FA6C]
+	(No symbol) [0x00007FF7385BB947]
+	(No symbol) [0x00007FF73859733F]
+	(No symbol) [0x00007FF7385B86BC]
+	(No symbol) [0x00007FF7385970A3]
+	(No symbol) [0x00007FF7385612DF]
+	(No symbol) [0x00007FF738562441]
+	GetHandleVerifier [0x00007FF738A1C76D+3377613]
+	GetHandleVerifier [0x00007FF738A67B67+3685831]
+	GetHandleVerifier [0x00007FF738A5CF8B+3641835]
+	GetHandleVerifier [0x00007FF7387AB2A6+816390]
+	(No symbol) [0x00007FF73866B25F]
+	(No symbol) [0x00007FF738667084]
+	(No symbol) [0x00007FF738667220]
+	(No symbol) [0x00007FF73865607F]
+	BaseThreadInitThunk [0x00007FFAACB07374+20]
+	RtlUserThreadStart [0x00007FFAAD43CC91+33]
+------------------------------------------------------------------------------
+OrgeHRM.Form                                                          | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+OrgeHRM                                                               | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\Shree\Desktop\New_Python\Result2\pabot_results\2\output.xml

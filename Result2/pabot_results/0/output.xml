@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.11.3 on win32)" generated="2024-09-29T17:36:42.660811" rpa="false" schemaversion="5">
+<suite id="s1" name="OrgeHRM" source="C:\Users\Shree\Desktop\New_Python\OrgeHRM">
+<suite id="s1-s1" name="Dropdown" source="C:\Users\Shree\Desktop\New_Python\OrgeHRM\dropdown.robot">
+<test id="s1-s1-t1" name="Open_browser" line="12">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-09-29T17:36:42.962364" level="INFO">Opening browser 'headlesschrome' to base url 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'.</msg>
+<arg>${Url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-09-29T17:36:42.962364" elapsed="22.215039"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-09-29T17:37:05.177403" elapsed="0.041806"/>
+</kw>
+<kw name="LoginTesting">
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-09-29T17:37:10.220492" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-09-29T17:37:05.220206" elapsed="5.000286"/>
+</kw>
+<kw name="Title Should Be" owner="SeleniumLibrary">
+<msg time="2024-09-29T17:37:10.240911" level="INFO">Page title is 'OrangeHRM'.</msg>
+<arg>OrangeHRM</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="PASS" start="2024-09-29T17:37:10.221013" elapsed="0.019898"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-09-29T17:37:15.244351" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-09-29T17:37:10.240911" elapsed="5.003440"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-09-29T17:37:15.244351" level="INFO">Typing text 'Admin' into text field 'xpath://input[@placeholder='Username']'.</msg>
+<arg>xpath://input[@placeholder='Username']</arg>
+<arg>${username}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-09-29T17:37:15.244351" elapsed="0.197769"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-09-29T17:37:20.442913" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-09-29T17:37:15.442120" elapsed="5.000793"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-09-29T17:37:20.443912" level="INFO">Typing text 'admin123' into text field 'xpath://input[@placeholder='Password']'.</msg>
+<arg>xpath://input[@placeholder='Password']</arg>
+<arg>${password}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-09-29T17:37:20.442913" elapsed="0.167932"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-09-29T17:37:25.611245" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-09-29T17:37:20.610845" elapsed="5.001434"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-09-29T17:37:25.612279" level="INFO">Clicking button 'xpath://button[@type='submit']'.</msg>
+<arg>xpath://button[@type='submit']</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-09-29T17:37:25.612279" elapsed="2.520175"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-09-29T17:37:36.133390" level="INFO">Slept 8 seconds.</msg>
+<arg>8</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-09-29T17:37:28.132454" elapsed="8.000936"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2024-09-29T17:37:36.134114" level="INFO">Clicking link '//a[normalize-space()='My Info']'.</msg>
+<arg>//a[normalize-space()='My Info']</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2024-09-29T17:37:36.133390" elapsed="1.752927"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-09-29T17:37:42.887535" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-09-29T17:37:37.887314" elapsed="5.000221"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-09-29T17:37:51.887785" level="INFO">Slept 9 seconds.</msg>
+<arg>9</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-09-29T17:37:42.887535" elapsed="9.000250"/>
+</kw>
+<kw name="Select From List By Index" owner="SeleniumLibrary">
+<msg time="2024-09-29T17:37:52.196042" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2024-09-29T17:37:52.196042" level="FAIL">ValueError: No indexes given.</msg>
+<arg>xpath://i[@class='oxd-icon bi-caret-up-fill oxd-select-text--arrow']</arg>
+<doc>Selects options from selection list ``locator`` by ``indexes``.</doc>
+<status status="FAIL" start="2024-09-29T17:37:51.887785" elapsed="0.312785">ValueError: No indexes given.</status>
+</kw>
+<status status="FAIL" start="2024-09-29T17:37:05.219209" elapsed="46.981361">ValueError: No indexes given.</status>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" start="2024-09-29T17:37:52.200570" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2024-09-29T17:36:42.962364" elapsed="69.238206">ValueError: No indexes given.</status>
+</test>
+<status status="FAIL" start="2024-09-29T17:36:42.730509" elapsed="69.470061"/>
+</suite>
+<status status="FAIL" start="2024-09-29T17:36:42.680512" elapsed="69.520058"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="OrgeHRM">OrgeHRM</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="Dropdown">OrgeHRM.Dropdown</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
