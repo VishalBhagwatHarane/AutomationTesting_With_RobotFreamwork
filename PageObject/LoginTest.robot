@@ -1,6 +1,6 @@
 *** Settings ***
 Library    SeleniumLibrary
-Resource    C:/Users/Shree/Desktop/New_Python/PageObject/Page.robot
+Resource    C:/Users/Shree/Desktop/New_Python/PageObject/PageObjects.robot
 
 *** Variables ***
 ${Brwoser}  headlesschrome
